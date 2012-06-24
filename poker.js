@@ -1,7 +1,7 @@
 // Setting up everything we need to attack the pokers ;-)
 var listOfPokers = document.querySelectorAll('a[ajaxify^="/ajax/pokes/poke_inline.php?uid="]')
   , poke = document.createEvent('MouseEvents')
-  , mouseOverPoker = document.createEvent('MouseEvents');
+  , mouseOverPoker = document.createEvent('MouseEvents')
   , pokeDialog = document.querySelector('.fbRemindersStory img[alt=Pokes]')
   , pageHasPokeDialog = !!pokeDialog;
 
