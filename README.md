@@ -6,6 +6,12 @@ NOTE: Once the script is run via the Browser console or as a bookmarklet,
 refresh the page to see the changes. This is because of the ajaxy behavior
 of facebook.
 
+## TODO
+
+- Autoloader to autoload the script on visiting facebook.com.
+- Check to prevent facepoke from acting when there are no pokers listed on the /pokes page.
+- Make sure all the pokers are poked. Handle the promise.
+
 ## License
 
 (The MIT License)
