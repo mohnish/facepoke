@@ -25,10 +25,3 @@ Array.prototype.forEach.call(listOfPokers, function(poker) {
     poker.dispatchEvent(poke);
   }, 1000);
 });
-
-// The bot closes the list of pokers dialog if it exists. If it doesn't, it just takes you back to the homepage.
-if(pageHasPokeDialog) {
-  pokeDialog.dispatchEvent(poke);
-} else {
-  window.location = '/';
-}
