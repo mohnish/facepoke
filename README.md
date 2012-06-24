@@ -1,6 +1,12 @@
 ## Facepoke
 
-Poke back everyone who pokes you on Facebook
+Poke back everyone who pokes you on Facebook.
+
+NOTE: Once the script is run via the Browser console or as a bookmarklet,
+
+refresh the page to see the changes. This is because of the ajaxy behavior
+
+of facebook.
 
 ## License
 
