@@ -11,13 +11,6 @@ poke.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, fa
 // Fooling FB into thinking that it's actually done by a human and not a bot
 mouseOverPoker.initMouseEvent('mouseover', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
 
-// The bot opens the list of pokers dialog. If the dialog is not present, visit the pokes page.
-if(pageHasPokeDialog) {
-  pokeDialog.dispatchEvent(poke);
-} else {
-  window.location = '/pokes';
-}
-
 // Missiles away...poke-em-all!!!!111
 Array.prototype.forEach.call(listOfPokers, function(poker) {
   poker.dispatchEvent(mouseOverPoker);
